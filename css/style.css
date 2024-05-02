@@ -25,8 +25,11 @@ body{
 .logo{
   margin-bottom: 30px;
 }
+.card-img{
+  /* width: 50%; */
+}
 .card-img > img{
-  width: 320px;
+  width: 100%;   
 }
 .counter{
   display: inline-flex;
@@ -39,4 +42,13 @@ body{
 }
 .counter > span {
   margin: 0 5px
+}
+.main-section__big-card__info__change-color{
+  display: flex;
+  justify-content: space-between;
+}
+.main-section__big-card{
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
 }
