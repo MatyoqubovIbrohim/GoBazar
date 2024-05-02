@@ -51,4 +51,5 @@ body{
   display: flex;
   justify-content: space-between;
   width: 30%;
+  border: 1px solid black;
 }
